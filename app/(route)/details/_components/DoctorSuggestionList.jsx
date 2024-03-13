@@ -34,7 +34,7 @@ function DoctorSuggestionList() {
                     <h2 className='text-[10px] bg-blue-100 p-1 rounded-full px-2
                      text-primary'>{doctor.attributes.categories?.data[0]?.attributes?.Name}</h2>
                 <h2 className='font-medium text-sm'>{doctor.attributes.Name}</h2>
-                <h2 className='text-primary text-xl flex gap-2'>
+                <h2 className='text-primary text-[12px] flex gap-2'>
                     {/* <GraduationCap/> */}
                     {doctor.attributes.Year_of_Experience} Years of Experience</h2>
                     </div>
