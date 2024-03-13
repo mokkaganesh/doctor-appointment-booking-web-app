@@ -1,0 +1,3 @@
+under app folder all files are made as arouting 
+
+_represents the not a added to the router
