@@ -29,4 +29,12 @@ const sendEmail=(data)=>axios.post('/api/sendEmail',data);
 const getUserBookingList=(email)=>axiosClient.get(`appointments?[filters][Email][$eq]=${email}&populate=[doctor][populate][image][populate][0]=url&populate=*`);
 const deleteBooking=(id)=>axiosClient.delete(`appointments/${id}`);
 
-export default {getCategory,getDoctorList,getDoctorByCategory,getDoctorById,bookAppointment,sendEmail,getUserBookingList,deleteBooking};
+export default {getCategory,
+    getDoctorList,
+    getDoctorByCategory,
+    getDoctorById,
+    bookAppointment,
+    sendEmail,
+    getUserBookingList,
+    deleteBooking
+};
