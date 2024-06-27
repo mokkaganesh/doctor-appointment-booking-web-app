@@ -2,7 +2,17 @@
 const nextConfig = {
     reactStrictMode: false,
     images: {
-        domains: ['localhost', 'res.cloudinary.com','lh3.googleusercontent.com'],
+        remotePatterns: [
+            { hostname: 'localhost' },
+            { hostname: 'res.cloudinary.com' },
+            { hostname: 'lh3.googleusercontent.com' },
+            //allow render
+            // {hostname:'onrender.com'},
+
+        ],
+        // unoptimized: true,
+        // domains: ['localhost', 'res.cloudinary.com','lh3.googleusercontent.com'],  ->depricated
+        
     },
 };
 
