@@ -10,7 +10,7 @@ const nextConfig = {
              {hostname:'onrender.com'},
 
         ],
-        // unoptimized: true,
+        unoptimized: true,
         // domains: ['localhost', 'res.cloudinary.com','lh3.googleusercontent.com'],  ->depricated
         
     },
