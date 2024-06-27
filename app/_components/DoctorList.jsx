@@ -12,7 +12,7 @@ function  DoctorList(doctorList) {
                     <div key={index} className='border-[1px] rounded-lg p-3 cursor-pointer hover:border-primary hover:shadow-sm transition-all ease-in-out'>
                         <Image src={item.attributes?.image?.data.attributes?.url} alt={item.attributes.Name} width={500} height={200} className='h-[200px] w-full object-cover rounded-lg' />
                         <div className='mt-3 items-baseline flex flex-col gap-2'>
-                            <h2 className='text-[10px] bg-blue-100 p-1 rounded-xl px-2 text-primary'>{item.attributes?.categories?.data[0].attributes?.Name}</h2>
+                            <h2 className='text-[10px] bg-blue-100 p-1 rounded-xl px-2 text-primary'>{item.attributes?.categories?.data[0]?.attributes?.Name}</h2>
                             <h2 className='font-bold'>{item.attributes?.Name}</h2>
                             <h2 className='text-primary text-sm'>{item.attributes?.Year_of_Experience}</h2>
                             <h2 className='text-gray-500 text-sm'>{item.attributes?.Address}</h2>
