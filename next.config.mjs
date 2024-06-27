@@ -7,7 +7,7 @@ const nextConfig = {
             { hostname: 'res.cloudinary.com' },
             { hostname: 'lh3.googleusercontent.com' },
             //allow render
-            // {hostname:'onrender.com'},
+             {hostname:'onrender.com'},
 
         ],
         // unoptimized: true,
